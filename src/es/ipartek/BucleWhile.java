@@ -17,6 +17,7 @@ public class BucleWhile {
             clave = scan.nextLine();
         };
 
+        scan.close();
         System.out.println("OK");
     }
 }

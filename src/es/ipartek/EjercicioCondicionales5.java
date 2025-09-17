@@ -79,5 +79,7 @@ public class EjercicioCondicionales5 {
         }
 
         System.out.printf("Valor total a pagar de la entrada es: [%.2f]", total);
+
+        scan.close();
     }
 }

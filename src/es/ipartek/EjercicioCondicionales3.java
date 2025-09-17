@@ -18,6 +18,8 @@ public class EjercicioCondicionales3 {
         System.out.println("Favor digite Nota: ");
         nota = Float.parseFloat(scan.nextLine());
 
+        scan.close();
+
         if (nota >= 0 && nota < 5) {
             System.out.println("Nota ["+nota+"] Suspenso");
         } else if (nota >= 5 && nota < 6) {

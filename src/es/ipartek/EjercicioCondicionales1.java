@@ -15,13 +15,14 @@ public class EjercicioCondicionales1 {
         System.out.println("Favor digite usuario: ");
         usuario = scan.nextLine();
 
+        System.out.println("Favor digite Contraseña");
+        contraseña = scan.nextLine();
+         scan.close();
+
         if (!usuario.toUpperCase().equals("ANA") && !usuario.toUpperCase().equals("MARIA")) {
             System.out.println("Usuario Desconocido ❌");
             return;
         }
-
-        System.out.println("Favor digite Contraseña");
-        contraseña = scan.nextLine();
 
         if (!contraseña.toUpperCase().equals("IPARTEK")) {
             System.out.println("Contraseña Incorrecta ❌");
@@ -41,5 +42,6 @@ public class EjercicioCondicionales1 {
             System.out.println("Usuario Desconocido ❌");
         }
         */
+
     }
 }

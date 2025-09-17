@@ -46,5 +46,7 @@ public class EjercicioBucles3 {
         } while (vNumSecreto != numSecreto);
 
         System.out.printf("Numero aleatorio [%d] : Numero digitado [%d] : Numero de Intentos [%d]", numSecreto, vNumSecreto, contador);
+
+        scan.close();
     }
 }

@@ -23,5 +23,7 @@ public class EjercicioBucles2 {
         } while (!vPin.equals(PIN) && contador < 3);
 
         System.out.println((vPin.equals(PIN) && contador <= 3) ? "PIN Correcto" : "PIN Incorrecto Bloqueado");
+
+        scan.close();
     }
 }

@@ -33,6 +33,7 @@ public class EjercicioCondicionales2 {
                        (C) MasterCard 
                        """);
         formaPago = scan.nextLine();
+        scan.close();
 
         if (validarVacio(formaPago)){
             System.out.println("Error debe digitar una forma de pago");
@@ -62,6 +63,7 @@ public class EjercicioCondicionales2 {
         if (!error) {
             System.out.printf("Monto total: [%.2f] Descuento: [%.2f] Monto a Pagar: [%.2f]", monto, descuento, (monto - descuento));
         }
+
     }
 
     public static boolean validarVacio(String cadena){

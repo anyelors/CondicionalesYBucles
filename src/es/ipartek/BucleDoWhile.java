@@ -17,5 +17,7 @@ public class BucleDoWhile {
         } while (!clave.equals(PASS));
 
         System.out.println("OK");
+
+        scan.close();
     }
 }

@@ -30,6 +30,8 @@ public class EjercicioCondicionales6 {
             contrasena = scan.nextLine();
         } while (contrasena.length()==0);
 
+        scan.close();
+
         if (contrasena.length()!=8) {
             errorLength = false;
         }

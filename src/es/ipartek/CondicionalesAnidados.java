@@ -33,5 +33,7 @@ public class CondicionalesAnidados {
             System.out.println("A y B");
         }
 
+        scan.close();
+
     }
 }

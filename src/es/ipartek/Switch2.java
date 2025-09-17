@@ -10,6 +10,8 @@ public class Switch2 {
         System.out.println("Indica el mes");
         mes  = Integer.parseInt(scan.nextLine());
 
+        scan.close();
+
         switch (mes){
             case 1:
             case 3:
