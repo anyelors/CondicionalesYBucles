@@ -31,7 +31,7 @@ public class EjercicioBucles1 {
         sumatoria = 0;
         System.out.println("Digite numero: ");
         numero = Integer.parseInt(scan.nextLine());
-        
+
         while (numero > 0){
             sumatoria += numero;
             System.out.println("Digite numero: ");
